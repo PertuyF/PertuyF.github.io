@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://PertuyF.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 25 May 2017 19:48:04 GMT</lastBuildDate><atom:link href="https://PertuyF.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Hello World!]]></title><description><![CDATA[<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>Just testing HubPress</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-python" data-lang="python">def func():
-    """Docstring"""
-    pass</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_does_features_work">Does features work?</h3>
-
-</div>]]></description><link>https://PertuyF.github.io/2017/05/25/Hello-World.html</link><guid isPermaLink="true">https://PertuyF.github.io/2017/05/25/Hello-World.html</guid><dc:creator><![CDATA[Fabien Pertuy]]></dc:creator><pubDate>Thu, 25 May 2017 00:00:00 GMT</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://PertuyF.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 25 May 2017 19:49:09 GMT</lastBuildDate><atom:link href="https://PertuyF.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl></channel></rss>
