@@ -1,0 +1,26 @@
+= Hello World!
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+:hp-image: /covers/cover.png
+:published_at: 2017-05-25
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+
+
+Is everything working?
+
+[source, python]
+----
+def test():
+    """
+    """
+    pass
+----
+
+== Section
+
+. probably
+. _not_
+. *syntax coloring*
+
+
+
