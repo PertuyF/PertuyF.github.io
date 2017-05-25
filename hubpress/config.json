@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "uno"
+    "name": "casper"
   },
   "urls": {
     "site": "https://PertuyF.github.io",
     "hubpress": "https://pertuyf.github.io",
-    "theme": "//PertuyF.github.io/themes/casper",
+    "theme": "//PertuyF.github.io/themes/uno",
     "images": "https://PertuyF.github.io/images"
   },
   "initialisationConfigComponent": {
