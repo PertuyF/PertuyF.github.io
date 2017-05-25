@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "ghostium"
+    "name": "casper"
   },
   "urls": {
     "site": "https://PertuyF.github.io",
     "hubpress": "https://pertuyf.github.io",
-    "theme": "//PertuyF.github.io/themes/uno-zen",
+    "theme": "//PertuyF.github.io/themes/ghostium",
     "images": "https://PertuyF.github.io/images"
   },
   "initialisationConfigComponent": {
