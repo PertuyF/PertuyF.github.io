@@ -1,10 +1,17 @@
 = Learning DeepLearning
 
-
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
-// :hp-image: /covers/cover.png
+:hp-image: /images/covers/brain.png
 :published_at: 2017-05-26
 :hp-tags: DeepLearning, Python, MOOC, Blog
 // :hp-alt-title: My English Title
 
+I started reading and experimenting about deeplearning not so long ago and I'd like to share resources and content I found usefull for a cold start.
+If you're not _math-oriented_, you may find, just like me, that
 
+
+==== Resources to include:
+. http://course.fast.ai/index.html[Practical Deep Learning For Coders] (Jeremy Howard)
+. https://cloud.google.com/blog/big-data/2017/01/learn-tensorflow-and-deep-learning-without-a-phd[DeepLearning without a PhD] (Martin Gorner)
+. http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/[Whic GPU for DeepLearning] (Tim Dettmers)
+. http://sebastianruder.com/optimizing-gradient-descent/[An overview of gradient descent optimization algorithms] (Sebastian Ruder)
