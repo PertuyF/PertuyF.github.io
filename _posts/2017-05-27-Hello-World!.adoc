@@ -1,0 +1,30 @@
+= Hello World!
+Fabien Pertuy
+:hp-image: /images/covers/
+:published_at: 2017-05-27
+:hp-tags: Introduction, Python, Deep_Learning, Data_Science
+
+[abstract]
+--
+First blog, first post
+
+Who, What and Why?
+--
+
+
+// First blog, first post, at this point it seems appropriate to introduce myself and describe the purpose of this blog.
+
+I come from Biology and made my way toward imaging and image processing, entering the field of Bioinformatics. I started to use *Python* for this purpose and quickly grew fond of this wonderful language whose impact is hugely increasing in the scientific community. +
+Being familiar with biostatistics and data analyses, I was curious of learning more general notions related to Data Sciences. Doing so I discovered what brings me there, *machine learning*.
+
+Machine learning is not that common, at least not yet, in fundamental research for Biology. I found that a number of tools I already used for image processing (the Numpy/Scipy ecosytem) where actually behind some of the main Python libraries for Data Sciences, like Pandas and Scikit-learn. +
+Nevertheless it was an entirely new field to me, and even if I already knew some tools I needed theory. I acquired basics at first through MOOCs (mainly https://www.udacity.com/course/intro-to-machine-learning--ud120[Udacity]), then started experimenting using https://www.kaggle.com/[Kaggle]. +
+
+
+
+
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+
+// :hp-alt-title: My English Title
+
+{authorinitials}
