@@ -1,6 +1,6 @@
 = Hello World!
 Fabien Pertuy
-:hp-image: /images/covers/Hello_World!.png
+:hp-image: images/covers/Hello_World!.png
 :published_at: {localdate}
 :hp-tags: Introduction, Python, Deep_Learning, Data_Science
 
@@ -20,11 +20,14 @@ Doing so I discovered what brings me there, *machine learning*.
 Machine learning is not that common, at least not yet, in fundamental research for Biology.
 I found that a number of tools I already used for image processing (the Numpy/Scipy ecosytem) where actually behind some of the main Python libraries for Data Sciences, like Pandas and Scikit-learn. +
 Nevertheless it was an entirely new field to me, and even if I already knew some tools I needed theory.
-I started learning the basics of machine learning with MOOCs (mainly https://www.udacity.com/course/intro-to-machine-learning--ud120[Udacity]), and experimenting using https://www.kaggle.com/[Kaggle] in the meanwhile. +
+I started learning the basics of machine learning with MOOCs (especially the nice link:++https://www.udacity.com/course/intro-to-machine-learning--ud120++["intro to machine learning"] from Udacity), and experimenting using link:https://www.kaggle.com/[Kaggle] in the meanwhile. +
 
-Then I reached to part on *Neural Networks*... +
-I must that right now I fascinated by these tools, and they are what triggered that blog.
-My purpose here is to share what I learn and experiment about Neural Networks, step by step. +
+Then I reached the part on *Neural Networks*... +
+I must say that right now I fascinated by these tools, and they are what triggered that blog.
 
+My purpose here is to share what I learn and experiment, starting with Neural Networks, step by step. +
 
+{empty} +
+
+---
 {authorinitials}
