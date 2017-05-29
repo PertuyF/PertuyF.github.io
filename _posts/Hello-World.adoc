@@ -1,7 +1,7 @@
 = Hello World!
 Fabien Pertuy
 :hp-image: /images/covers/Hello_World!.png
-:published_at: 2017-05-
+:published_at: 2017-05-29
 :hp-tags: Introduction, Python, Machine_Learning, Deep_Learning, Data_Science
 
 [abstract]
