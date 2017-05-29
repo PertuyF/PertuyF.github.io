@@ -23,7 +23,7 @@ Nevertheless it was an entirely new field to me, and even if I already knew some
 I started learning the basics of machine learning with MOOCs (especially the nice link:++https://www.udacity.com/course/intro-to-machine-learning--ud120++["intro to machine learning"] from Udacity), and experimenting using link:https://www.kaggle.com/[Kaggle] in the meanwhile. +
 
 Then I reached the part on *Neural Networks*... +
-I must say that right now I fascinated by these tools, and they are what triggered that blog.
+I must say that right now I am fascinated by these things, and they definetly are what triggered that blog.
 
 My purpose here is to share what I learn and experiment, starting with Neural Networks, step by step. +
 
