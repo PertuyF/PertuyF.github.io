@@ -1,8 +1,8 @@
 = Hello World!
 Fabien Pertuy
-:hp-image: images/covers/Hello_World!.png
-:published_at: {localdate}
-:hp-tags: Introduction, Python, Deep_Learning, Data_Science
+:hp-image: /images/covers/Hello_World!.png
+:published_at: 2017-05-
+:hp-tags: Introduction, Python, Machine_Learning, Deep_Learning, Data_Science
 
 [abstract]
 --
@@ -27,7 +27,5 @@ I must say that right now I fascinated by these tools, and they are what trigger
 
 My purpose here is to share what I learn and experiment, starting with Neural Networks, step by step. +
 
-{empty} +
-
----
-{authorinitials}
+// ---
+// Last modified on {docdate}
