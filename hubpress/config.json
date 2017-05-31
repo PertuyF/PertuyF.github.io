@@ -27,7 +27,7 @@
   "site": {
     "title": "",
     "description": "Coming soon!",
-    "logo": "",
+    "logo": "/images/logo.png",
     "cover": "",
     "delay": "",
     "postsPerPage": "10",
