@@ -28,7 +28,7 @@
     "title": "",
     "description": "Coming soon!",
     "logo": "/images/logo.png",
-    "cover": "",
+    "cover": "/images/Blog_cover.png",
     "delay": "",
     "postsPerPage": "10",
     "googleAnalytics": "",
