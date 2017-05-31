@@ -28,7 +28,7 @@
     "title": "",
     "description": "Coming soon!",
     "logo": "",
-    "cover": "images/favicon.ico",
+    "cover": "/images/favicon.ico",
     "delay": "",
     "postsPerPage": "10",
     "googleAnalytics": "",
