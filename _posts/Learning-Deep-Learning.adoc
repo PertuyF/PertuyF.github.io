@@ -6,8 +6,29 @@
 :hp-tags: DeepLearning, Python, MOOC, Blog
 // :hp-alt-title: My English Title
 
-I started reading and experimenting about deeplearning not so long ago and I'd like to share resources and content I found usefull for a cold start.
-If you're not _math-oriented_, you may find, just like me, that
+[abstract]
+--
+The role of intuition
+--
+
+=== The role of Intuition
+
+I started reading and experimenting about *Deep Learning* not so long ago and I found a great discrepancy in the affordability of resources available to _naïve_ learners. I've met a similar situation in image processing, where explanations about how an algorithm works and what it does is too often limited to inapprehensible equations.
+
+I must admit, I am not of the _math-oriented_ type. Well, at least I am not fond of math in the way it is taught by most mathematicians. I need intuition to understand how a tool works and how I can use it. And a good graphical representation is most of the time far more efficient for me than any equation. For me, learning is all about building my own representation of things, that fits with what I already know.
+
+Anyway, there are other people that feel the same. I know that because intuitive approaches tends to increase significantly over the web. https://betterexplained.com/[Better Explained] is a good example, I would have dreamt to be taught math this way in school!
+
+In short, I claim that getting intuition is how it works. Intuition is *_FUNDAMENTAL_* to acquire knowledge.
+
+=== Getting insights about Deep Learning
+
+Hopefully, some people decided that a field growing so large as Deep Learning. This field which everyone know will have an tremendous impact on our world. Such a field should not be reserved to the few able to build intuition out of that:
+[.text-center]
+.Some probably very interesting formula from link::http://www.scirp.org/journal/APM/[Advances in Pure Mathematics].
+[link=DOI:10.4236/apm.2013.39A1002]
+image::/images/Learning-Deep-Learning/MNN_formula.jpg[align=center, width=400]
+
 
 
 ==== Resources to include:
