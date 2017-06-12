@@ -13,26 +13,75 @@ The role of intuition
 
 === The role of Intuition
 
-I started reading and experimenting about *Deep Learning* not so long ago and I found a great discrepancy in the affordability of resources available to _naïve_ learners. I've met a similar situation in image processing, where explanations about how an algorithm works and what it does is too often limited to inapprehensible equations.
+I started reading and experimenting about *Deep Learning* not so long ago and I found a great discrepancy in the affordability of resources available to _naïve_ learners.
+I've met a similar situation in image processing, where explanations about how an algorithm works and what it does is too often limited to inapprehensible equations.
 
-I must admit, I am not of the _math-oriented_ type. Well, at least I am not fond of math in the way it is taught by most mathematicians. I need intuition to understand how a tool works and how I can use it. And a good graphical representation is most of the time far more efficient for me than any equation. For me, learning is all about building my own representation of things, that fits with what I already know.
+I must admit, I am not of the _math-oriented_ type.
+Well, at least I am not fond of math in the way it is taught by most mathematicians.
+I need intuition to understand how a tool works and how I can use it.
+And a good graphical representation is most of the time far more efficient for me than any equation.
+For me, learning is all about building my own representation of things, that fits with what I already know.
 
-Anyway, there are other people that feel the same. I know that because intuitive approaches tends to increase significantly over the web. https://betterexplained.com/[Better Explained] is a good example, I would have dreamt to be taught math this way in school!
+Anyway, there are other people that feel the same. I know that because intuitive approaches tends to increase significantly over the web.
+https://betterexplained.com/[Better Explained] is a good example, I would have dreamt to be taught math this way in school!
 
-In short, I claim that getting intuition is how it works. Intuition is *_FUNDAMENTAL_* to acquire knowledge.
+In short, I claim that getting intuition is how it works.
+Intuition is *_FUNDAMENTAL_* to acquire knowledge.
 
-=== Getting insights about Deep Learning
+=== Grab some intuition about Deep Learning
 
-Hopefully, some people decided that a field growing so large as Deep Learning. This field which everyone know will have an tremendous impact on our world. Such a field should not be reserved to the few able to build intuition out of that:
+Hopefully, some people decided that a field growing so large as Deep Learning. A field that already have a tremendous impact on our life.
+Such a field should not be reserved to the few able to build intuition out of that:
 [.text-center]
-.Some probably very interesting formula from link::http://www.scirp.org/journal/APM/[Advances in Pure Mathematics].
+.Some probably very interesting formula from an article published in link::http://www.scirp.org/journal/APM/[Advances in Pure Mathematics].
 [link=DOI:10.4236/apm.2013.39A1002]
 image::/images/Learning-Deep-Learning/MNN_formula.jpg[align=center, width=400]
 
+So these people created resources that are meant to bring Deep Learning to anyone with minimal skills in informatics and enough curiosity.
+Resources that help to build intuition out of practical examples, and allow anyone to learn in a self-paced schedule.
 
+There are two resources that exactly fit this description, and that I would like to share because of the outstanding quality of their content:
+
+ * https://cloud.google.com/blog/big-data/2017/01/learn-tensorflow-and-deep-learning-without-a-phd[DeepLearning without a PhD], a 3 hours speech by https://plus.google.com/+MartinGorner[Martin Görner] (Google) that first demonstrate how to build a minimum Neural Network working with the famous MNIST dataset.
+ Then improving it to a *Convolutional Neural Network (CNN)* that achieves up to 99.5% accuracy (top 10 of best results for this dataset).
+ Both the videos (short and long versions), the code, the slides and an interactive codelab of this excellent demonstration are available.
+ Plus a bonus demo of some *Recurrent Neural Network (RNN)* able to generate random text following the style of Shakespear, or looking very much like the Python code of Tensorflow itself.
+
+ * http://course.fast.ai/index.html[Practical Deep Learning For Coders], a 7 weeks formation by https://www.usfca.edu/data-institute/about-us/researchers[Jeremy Howard] (fast.ai, Data Institute at the University of San Francisco), freely available as a MOOC.
+ The whole course is covering *CNN*, with some pre-trained models, *RNN* and *Natural Language Processing(NLP)*.
+ Each week corresponds to a ~2H video, plus a Jupyter notebook and some assignments.
+ Usually, students are encouraged to enter Kaggle competitions and play around with all resources.
+ The website also has a nice and responsive forum with a growing community.
+ Part 2 of this course should be released in the next months, and I am sure it will be as amazing as Part 1.
+
+The common aim of these two resources is to get to the practice as soon as possible.
+Only then dissect who does what, why and how.
+The fastest way to build intuition is to stare at the thing running, play with it and think about it.
+
+=== Getting practical
+
+But, playing with *Neural Networks* is not exactly trivial, not if you don't want to get bored very quickly. +
+Why that? +
+Because these babies are hungry of computational power.
+
+Well, they are not exactly monsters that will require thousands to be invested in your computer, they can run on pretty any system available these days.
+But they can be so *slooowwwwww...*
+
+The point is that Neural networks rely on matrix computations, tons of parallel computations at the same time.
+So depending on your hardware, you will be able to train a network in a few seconds.
+Or to wait for *hours* (Seriously. Hours.) for the result.
+And that's why it is not trivial: to keep it playful you have to get some hardware, then set up your software properly before everything works.
+Basically you have two options:
+
+ * Use a dedicated system, such as computation servers (which are getting cheaper and cheaper).
+  But not everyone is willing to invest money in it. I am not. So I will detail further the second option.
+ * Get your own system.
+ Hopefully, you don't need an extreme CPU for that, because matrix computations are very well adapted to GPUs.
+ And GPUs are affordable and very well spread (Thank you Gamers!).
+
+Almost any mid-range GPU will be able to get you started if needed, but there are definitely important criterions to be taken into account if you want to
 
 ==== Resources to include:
-. http://course.fast.ai/index.html[Practical Deep Learning For Coders] (Jeremy Howard)
-. https://cloud.google.com/blog/big-data/2017/01/learn-tensorflow-and-deep-learning-without-a-phd[DeepLearning without a PhD] (Martin Gorner)
+
 . http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/[Whic GPU for DeepLearning] (Tim Dettmers)
 . http://sebastianruder.com/optimizing-gradient-descent/[An overview of gradient descent optimization algorithms] (Sebastian Ruder)
