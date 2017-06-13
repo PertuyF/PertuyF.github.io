@@ -56,9 +56,9 @@ There are two resources that exactly fit this description, and that I would like
 
 The common aim of these two resources is to get to the practice as soon as possible.
 Only then dissect who does what, why and how.
-The fastest way to build intuition is to stare at the thing running, play with it and think about it.
+The fastest way to build intuition is to observe the thing running (or literally stare at it), play with it and think about it.
 
-=== Getting practical
+=== Getting practical: make it run!
 
 But, playing with *Neural Networks* is not exactly trivial, not if you don't want to get bored very quickly. +
 Why that? +
@@ -67,21 +67,30 @@ Because these babies are hungry of computational power.
 Well, they are not exactly monsters that will require thousands to be invested in your computer, they can run on pretty any system available these days.
 But they can be so *slooowwwwww...*
 
-The point is that Neural networks rely on matrix computations, tons of parallel computations at the same time.
+The point is that Neural networks rely on matrix computations, with thousands of computations in parallel.
 So depending on your hardware, you will be able to train a network in a few seconds.
 Or to wait for *hours* (Seriously. Hours.) for the result.
-And that's why it is not trivial: to keep it playful you have to get some hardware, then set up your software properly before everything works.
-Basically you have two options:
+And that's why it is not trivial: to keep it playful you have to get some capable hardware, then set up your software properly before everything works.
+Basically there are two options:
 
- * Use a dedicated system, such as computation servers (which are getting cheaper and cheaper).
-  But not everyone is willing to invest money in it. I am not. So I will detail further the second option.
- * Get your own system.
+ * *Rent a dedicated system*, such as computation servers (which are getting cheaper and cheaper).
+  It seems to work quite well, but not everyone is willing to invest money in it.
+  I am not.
+  So I will detail further the second option.
+ * *Get your own system*.
  Hopefully, you don't need an extreme CPU for that, because matrix computations are very well adapted to GPUs.
  And GPUs are affordable and very well spread (Thank you Gamers!).
+ Almost any mid-range GPU will be able to get you started if needed, but there are definitely important criterions to be taken into account if you want to get serious job done.
+  http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/[Which GPU to get for Deep Learning] is very nice article on this subject by Tim Dettmers. The author is very responsive, so do not hesitate to ask for more precisions in the comments.
 
-Almost any mid-range GPU will be able to get you started if needed, but there are definitely important criterions to be taken into account if you want to
+Once you get a suitable system, I advise to go for Python (did I said it? I *love* Python) and follow instructions to any of the Deep Learning frameworks installed.
+Keras is the one I would advise.
+First you'll have plenty examples if you have a look to fast.ai.
+Second it allows to use TensorFlow or Theano, which are two different frameworks with their own advantages.
+Third it is growing popular and will soon allow to use CNTK, and MXNET which are two additional frameworks.
+This means that by learning only one environment, you could use four different implementations of Deep Learning.
+And that's great.
 
 ==== Resources to include:
 
-. http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/[Whic GPU for DeepLearning] (Tim Dettmers)
 . http://sebastianruder.com/optimizing-gradient-descent/[An overview of gradient descent optimization algorithms] (Sebastian Ruder)
