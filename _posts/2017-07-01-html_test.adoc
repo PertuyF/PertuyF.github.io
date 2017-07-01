@@ -1,9 +1,0 @@
-= Test
-
-Some text before
-
-++++
-<iframe width="100%" height="400" frameborder="0" scrolling="no" src="/images/Test-HTML/Test VMA - 2016-10-09 - Fabien.html"></iframe>
-++++
-
-Some text after
