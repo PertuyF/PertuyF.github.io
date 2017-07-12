@@ -1,4 +1,4 @@
-= Learning DeepLearning
+= Starting DeepLearning
 
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
 :hp-image: /images/covers/brain.png
