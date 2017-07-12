@@ -28,7 +28,7 @@ https://betterexplained.com/[Better Explained] is a good example, I would have d
 In short, I claim that getting intuition is how it works.
 Intuition is *_FUNDAMENTAL_* to acquire knowledge.
 
-=== Grab some intuition about Deep Learning
+=== Grabbing intuition about Deep Learning
 
 Hopefully, some people decided to created resources about Deep Learning that follow this philosophy.
 These resources are meant to bring Deep Learning to anyone with minimal skills in informatics and enough curiosity.
@@ -78,7 +78,7 @@ Basically there are two options:
 
 === Getting practical: make it run!
 
-Once you get a suitable system, it's time to get the software installed.
+Once you get a suitable system, it's time to choose the software and to get it running.
 There is certainly no _best_ language for Deep Learning, and I will not pretend to recommend any.
 On my side I use *Python*, and obviously the resources I am talking about are using Python too.
 
@@ -87,13 +87,22 @@ I think https://keras.io/[Keras] is a good pick, as it is unifying some popular 
 https://www.tensorflow.org/[TensorFlow] and http://deeplearning.net/software/theano/#[Theano] are fully supported, and https://docs.microsoft.com/en-us/cognitive-toolkit/[CNTK] and http://mxnet.io/[MXNET] are coming right now (beta).
 Reviews of the different frameworks are available online (for example https://indico.io/blog/python-deep-learning-frameworks-reviewed/[here]).
 
+There are plenty tutorial and use cases available online that use Keras to help at start.
 
-First you'll have plenty examples if you have a look to fast.ai.
-Second it allows to use TensorFlow or Theano, which are two different frameworks with their own advantages.
-Third it is growing popular and will soon allow to use CNTK, and MXNET which are two additional frameworks.
-This means that by learning only one environment, you could use four different implementations of Deep Learning.
-And that's great.
+=== The next step
 
-==== Resources to include:
+The great thing about Deep Learning is that there is so much to understand, to explore about it.
+So that any tiny idea could lead to discover useful notions.
+These times will probably be referred to as the golden age of Deep Learning a few years ahead, and the most people getting involved, the more progress to be done, so let's get involved!
 
-. http://sebastianruder.com/optimizing-gradient-descent/[An overview of gradient descent optimization algorithms] (Sebastian Ruder)
+Basically I am not very far in the process.
+I integrated basic notions about neural networks: basic architectures, main parameters to tune, how to detect common problems and how to improve the results.
+
+I feel that I know just enough to understand I know nothing (you're not alone, John Snow).
+I like to think about *Deep Learning* as a *Black Hole*: everyone understand it is extremely powerful, some people have an idea of how to use it, but no one knows for sure what's going on inside.
+
+On my side I'll try to keep a methodical, scientific, approach to investigate this field, and communicate about it to benefit from peer review.
+I do not plan to look at scientific literature before testing an idea, but in a second time just to ensure I am not re-discovering the wheel.
+What I expect is to get insights from other people and to exchange ideas, so tell me if you think differently, or if you experimented similar things.
+
+All I want is to learn from our discussions.
