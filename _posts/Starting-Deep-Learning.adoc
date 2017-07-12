@@ -1,7 +1,7 @@
 = Starting DeepLearning
 
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
-:hp-image: /images/covers/brain.png
+:hp-image: /images/covers/Black_holes.png
 :published_at: 2017-05-26
 :hp-tags: DeepLearning, Python, MOOC, Blog
 // :hp-alt-title: My English Title
