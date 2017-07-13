@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Starting DeepLearning</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="//PertuyF.github.io/themes/uno-zen/assets/img/apple-touch-icon-57x57.png?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="apple-touch-icon" sizes="60x60" href="//PertuyF.github.io/themes/uno-zen/assets/img/apple-touch-icon-60x60.png?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="apple-touch-icon" sizes="72x72" href="//PertuyF.github.io/themes/uno-zen/assets/img/apple-touch-icon-72x72.png?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="apple-touch-icon" sizes="76x76" href="//PertuyF.github.io/themes/uno-zen/assets/img/apple-touch-icon-76x76.png?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="apple-touch-icon" sizes="114x114" href="//PertuyF.github.io/themes/uno-zen/assets/img/apple-touch-icon-114x114.png?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="apple-touch-icon" sizes="120x120" href="//PertuyF.github.io/themes/uno-zen/assets/img/apple-touch-icon-120x120.png?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="apple-touch-icon" sizes="144x144" href="//PertuyF.github.io/themes/uno-zen/assets/img/apple-touch-icon-144x144.png?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="apple-touch-icon" sizes="152x152" href="//PertuyF.github.io/themes/uno-zen/assets/img/apple-touch-icon-152x152.png?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="apple-touch-icon" sizes="180x180" href="//PertuyF.github.io/themes/uno-zen/assets/img/apple-touch-icon-180x180.png?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="icon" type="image/png" href="//PertuyF.github.io/themes/uno-zen/assets/img/favicon-32x32.png?v=wAAv6Wqe6l?v=1499976941052" sizes="32x32">
+    <link rel="icon" type="image/png" href="//PertuyF.github.io/themes/uno-zen/assets/img/favicon-194x194.png?v=wAAv6Wqe6l?v=1499976941052" sizes="194x194">
+    <link rel="icon" type="image/png" href="//PertuyF.github.io/themes/uno-zen/assets/img/favicon-96x96.png?v=wAAv6Wqe6l?v=1499976941052" sizes="96x96">
+    <link rel="icon" type="image/png" href="//PertuyF.github.io/themes/uno-zen/assets/img/android-chrome-192x192.png?v=wAAv6Wqe6l?v=1499976941052" sizes="192x192">
+    <link rel="icon" type="image/png" href="//PertuyF.github.io/themes/uno-zen/assets/img/favicon-16x16.png?v=wAAv6Wqe6l?v=1499976941052" sizes="16x16">
+    <link rel="manifest" href="//PertuyF.github.io/themes/uno-zen/assets/img/manifest.json?v=wAAv6Wqe6l?v=1499976941052">
+    <link rel="shortcut icon" href="//PertuyF.github.io/themes/uno-zen/assets/img/favicon.ico?v=wAAv6Wqe6l?v=1499976941052">
+    <meta name="msapplication-TileColor" content="#e74c3c">
+    <meta name="msapplication-TileImage" content="//PertuyF.github.io/themes/uno-zen/assets/img/mstile-144x144.png?v=wAAv6Wqe6l?v=1499976941052">
+    <meta name="msapplication-config" content="//PertuyF.github.io/themes/uno-zen/assets/img/browserconfig.xml?v=wAAv6Wqe6l?v=1499976941052">
+    <meta name="theme-color" content="#e74c3c">
+    <link rel="stylesheet" type="text/css" href="//PertuyF.github.io/themes/uno-zen/assets/css/uno-zen.css?v=1499976941052" />
+    <link rel="canonical" href="https://PertuyF.github.io/2017/07/13/Starting-Deep-Learning.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="From within the Black Hole" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Starting DeepLearning" />
+    <meta property="og:description" content="The role of intuition The role of Intuition I started reading and experimenting about Deep Learning not so long ago and I found a great discrepancy in the affordability of resources available to naïve learners. I&amp;#8217;ve met a similar situation in image processing, where explanations about how an" />
+    <meta property="og:url" content="https://PertuyF.github.io/2017/07/13/Starting-Deep-Learning.html" />
+    <meta property="og:image" content="/images/covers/Black_holes.png" />
+    <meta property="article:published_time" content="2017-07-13T00:00:00.000Z" />
+    <meta property="article:tag" content="DeepLearning" />
+    <meta property="article:tag" content="Python" />
+    <meta property="article:tag" content="MOOC" />
+    <meta property="article:tag" content="Blog" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Starting DeepLearning" />
+    <meta name="twitter:description" content="The role of intuition The role of Intuition I started reading and experimenting about Deep Learning not so long ago and I found a great discrepancy in the affordability of resources available to naïve learners. I&amp;#8217;ve met a similar situation in image processing, where explanations about how an" />
+    <meta name="twitter:url" content="https://PertuyF.github.io/2017/07/13/Starting-Deep-Learning.html" />
+    <meta name="twitter:image:src" content="/images/covers/Black_holes.png" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "From within the Black Hole",
+    "author": {
+        "@type": "Person",
+        "name": "Fabien Pertuy",
+        "image": "https://avatars0.githubusercontent.com/u/12252516?v=3",
+        "url": "https://PertuyF.github.io/author/PertuyF/"
+    },
+    "headline": "Starting DeepLearning",
+    "url": "https://PertuyF.github.io/2017/07/13/Starting-Deep-Learning.html",
+    "datePublished": "2017-07-13T00:00:00.000Z",
+    "image": "/images/covers/Black_holes.png",
+    "keywords": "DeepLearning, Python, MOOC, Blog",
+    "description": "The role of intuition The role of Intuition I started reading and experimenting about Deep Learning not so long ago and I found a great discrepancy in the affordability of resources available to naïve learners. I&amp;#8217;ve met a similar situation in image processing, where explanations about how an"
+}
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="From within the Black Hole" href="https://PertuyF.github.io/rss/" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
+  </head>
+  <body class="post-template tag-Deep-Learning tag-Python tag-MOOC tag-Blog">
+    <header id="menu-button" class="expanded">
+      <a><i class="icon icon-list"></i></a>
+    </header>
+    <aside class="cover" style="background: url(/images/Blog_cover2.png) center/cover no-repeat fixed">
+      <div class="cover container">
+        <div class="profile">
+          <a id="avatar-link" title="link to homepage for From within the Black Hole" href="https://PertuyF.github.io/#open">
+            <img src="/images/logo.png" alt="From within the Black Hole avatar" class="profile avatar rounded hvr-buzz-out" />
+            <h1 id="profile-title">From within the Black Hole</h1>
+            <h3 id="profile-resume"></h3>
+          </a>
+    
+          <hr class="divider long" />
+          <p>Coming soon!</p>
+          <hr class="divider short" />
+          <div class="navigation">
+            <div class="profile contact">
+              
+              <nav class="navigation right">
+                <ul class="social expanded">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                </ul>
+              </nav>
+              <!-- <section class="icon icon-search" id="search-container">
+      <hr class="divider short" />
+      <form id="search-form">
+        <input type="text", name="search", placeholder="git, css, javascript,..." id="search-field" />
+      </form>
+    </section>
+     -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <section id="search-results"></section>
+      <section class="content">
+        
+
+  <article class="post tag-Deep-Learning tag-Python tag-MOOC tag-Blog">
+    <header>
+      <div class="post meta">
+        <time datetime="13 Jul 2017">13 Jul 2017</time>
+        <span class="post tags">in <a href="https://PertuyF.github.io/tag/Deep-Learning/">DeepLearning</a> <a href="https://PertuyF.github.io/tag/Python/">Python</a> <a href="https://PertuyF.github.io/tag/MOOC/">MOOC</a> <a href="https://PertuyF.github.io/tag/Blog/">Blog</a></span>
+
+
+        <span class="post reading-time"> ~ <span></span> read.</span>
+      </div>
+      <a alt="Tweet 'Starting DeepLearning'" href="https://twitter.com/intent/tweet?text=Starting%20DeepLearning%20%C2%BB&amp;hashtags=DeepLearning,Python,MOOC,Blog&amp;url=https://PertuyF.github.io/2017/07/13/Starting-Deep-Learning.html">
+        <img id="post-image" src=/images/covers/Black_holes.png alt="Starting DeepLearning">
+        <h1 class="icon-reverse icon-social-twitter-post" id="post-title">Starting DeepLearning</h1>
+      </a>
+    </header>
+
+    <div id="post-content" class="post tag-Deep-Learning tag-Python tag-MOOC tag-Blog">
+      <div id="preamble">
+<div class="sectionbody">
+<div class="quoteblock abstract">
+<blockquote>
+<div class="paragraph">
+<p>The role of intuition</p>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_role_of_intuition">The role of Intuition</h3>
+<div class="paragraph">
+<p>I started reading and experimenting about <strong>Deep Learning</strong> not so long ago and I found a great discrepancy in the affordability of resources available to <em>naïve</em> learners.
+I&#8217;ve met a similar situation in image processing, where explanations about how an algorithm works and what it does is too often limited to inapprehensible equations.</p>
+</div>
+<div class="paragraph">
+<p>I must admit, I am not of the <em>math-oriented</em> type.
+Well, at least I am not fond of math in the way it is taught by most mathematicians.
+I need intuition to understand how a tool works and how I can use it.
+And a good graphical representation is most of the time far more efficient for me than any equation.
+For me, learning is all about building my own representation of things, that fits with what I already know.</p>
+</div>
+<div class="paragraph">
+<p>Anyway, there are other people that feel the same. I know that because intuitive approaches tends to increase significantly over the web.
+<a href="https://betterexplained.com/">Better Explained</a> is a good example, I would have dreamt to be taught math this way in school!</p>
+</div>
+<div class="paragraph">
+<p>In short, I claim that getting intuition is how it works.
+Intuition is <strong><em>FUNDAMENTAL</em></strong> to acquire knowledge.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_grabbing_intuition_about_deep_learning">Grabbing intuition about Deep Learning</h3>
+<div class="paragraph">
+<p>Hopefully, some people decided to created resources about Deep Learning that follow this philosophy.
+These resources are meant to bring Deep Learning to anyone with minimal skills in informatics and enough curiosity.
+They aim to help building intuition out of practical examples, and allow anyone to learn in a self-paced schedule.</p>
+</div>
+<div class="paragraph">
+<p>There are two resources that exactly fit this description, and that I would like to share because of the outstanding quality of their content:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://cloud.google.com/blog/big-data/2017/01/learn-tensorflow-and-deep-learning-without-a-phd">DeepLearning without a PhD</a>, a 3 hours speech by <a href="https://plus.google.com/+MartinGorner">Martin Görner</a> (Google) that demonstrate how to build a Neural Network working with the famous MNIST dataset.
+Several architectures are tested, demonstrating how to tune the network up to a <strong>Convolutional Neural Network (CNN)</strong> that achieves up to 99.5% accuracy (top 10 of best results for this dataset).
+Final part is a demo of some <strong>Recurrent Neural Network (RNN)</strong> able to generate random text following the style of Shakespeare&#8217;s play, or the syntax of the Python code of Tensorflow itself.
+Both the videos (short and long versions), the code, the slides and an interactive codelab of this excellent demonstration are available.</p>
+</li>
+<li>
+<p><a href="http://course.fast.ai/index.html">Practical Deep Learning For Coders</a>, a 7 weeks formation by <a href="https://www.usfca.edu/data-institute/about-us/researchers">Jeremy Howard</a> (fast.ai, Data Institute at the University of San Francisco), freely available as a MOOC.
+The whole course is covering <strong>CNN</strong>, demonstrating the use of pre-trained models, <strong>RNN</strong> and <strong>Natural Language Processing(NLP)</strong>.
+Each week corresponds to a ~2H video, plus a Jupyter notebook and assignments.
+Usually, students are encouraged to enter Kaggle competitions and play around with all resources available.
+The website also has a nice and responsive forum with a growing community.
+Part 2 of this course should be released in the next months, and I am sure it will be as amazing as Part 1.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The common aim of these two resources is to get to practice as soon as possible.
+Only then dissect who does what, why and how.
+The fastest way to build intuition is to observe the thing running (or literally stare at it), play with it and think about it.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_getting_practical_get_a_computer">Getting practical: get a computer</h3>
+<div class="paragraph">
+<p>But, playing with <strong>Neural Networks</strong> is not exactly trivial, not if you don&#8217;t want to get bored very quickly.<br>
+Why that?<br>
+Because they&#8217;re hungry for computational power.</p>
+</div>
+<div class="paragraph">
+<p>Well, they are not exactly monsters that will require thousands to be invested in your computer, they can run on pretty any system available these days.
+But they can be so <strong>slooowwwwww&#8230;&#8203;</strong></p>
+</div>
+<div class="paragraph">
+<p>The point is that Neural networks rely on matrix computations, with thousands of computations in parallel.
+So depending on your hardware, you will be able to train a network in a few seconds.
+Or to wait for <strong>hours</strong> (Seriously. Hours.) for the result.
+And that&#8217;s why it is not trivial: to keep it playful you have to get some capable hardware, then set up your software properly before everything works.
+Basically there are two options:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Rent a dedicated system</strong>, such as computation servers (which are getting cheaper and cheaper).
+It seems to work quite well, but not everyone is willing to invest money in it.
+I am not, so I will not detail this option any further, but it&#8217;s still a viable way to do things.</p>
+</li>
+<li>
+<p><strong>Get your own system</strong>.
+Hopefully, you don&#8217;t need an extreme CPU for that, because matrix computations are totally adapted to GPUs.
+And GPUs are affordable and very well spread (Thank you Gamers!).
+Almost any mid-range GPU will be able to get you started if needed, but there are definitely important criterions to be taken into account if you want to get serious job done.
+ <a href="http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/">Which GPU to get for Deep Learning</a> is very nice article on this subject by Tim Dettmers. The author is very responsive, so do not hesitate to ask for more precisions in the comments.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_getting_practical_make_it_run">Getting practical: make it run!</h3>
+<div class="paragraph">
+<p>Once you get a suitable system, it&#8217;s time to choose the software and to get it running.
+There is certainly no <em>best</em> language for Deep Learning, and I will not pretend to recommend any.
+On my side I use <strong>Python</strong>, and obviously the resources I am talking about are using Python too.</p>
+</div>
+<div class="paragraph">
+<p>Many Python libraries are available for Deep Learning, and the choice might be difficult here also.
+I think <a href="https://keras.io/">Keras</a> is a good pick, as it is unifying some popular frameworks so you can jump from one to another very easily.
+<a href="https://www.tensorflow.org/">TensorFlow</a> and <a href="http://deeplearning.net/software/theano/#">Theano</a> are fully supported, and <a href="https://docs.microsoft.com/en-us/cognitive-toolkit/">CNTK</a> and <a href="http://mxnet.io/">MXNET</a> are coming right now (beta).
+Reviews of the different frameworks are available online (for example <a href="https://indico.io/blog/python-deep-learning-frameworks-reviewed/">here</a>).</p>
+</div>
+<div class="paragraph">
+<p>There are plenty tutorial and use cases available online that use Keras to help at start.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_next_step">The next step</h3>
+<div class="paragraph">
+<p>The great thing about Deep Learning is that there is so much to understand, to explore about it.
+So that any tiny idea could lead to discover useful notions.
+These times will probably be referred to as the golden age of Deep Learning a few years ahead, and the most people getting involved, the more progress to be done, so let&#8217;s get involved!</p>
+</div>
+<div class="paragraph">
+<p>Basically I am not very far in the process.
+I integrated basic notions about neural networks: basic architectures, main parameters to tune, how to detect common problems and how to improve the results.</p>
+</div>
+<div class="paragraph">
+<p>I feel that I know just enough to understand I know nothing (you&#8217;re not alone, John Snow).
+I like to think about <strong>Deep Learning</strong> as a <strong>Black Hole</strong>: everyone understand it is extremely powerful, some people have an idea of how to use it, but no one knows for sure what&#8217;s going on inside.</p>
+</div>
+<div class="paragraph">
+<p>On my side I&#8217;ll try to keep a methodical, scientific, approach to investigate this field, and communicate about it to benefit from peer review.
+I do not plan to look at scientific literature before testing an idea, but in a second time just to ensure I am not re-discovering the wheel.
+What I expect is to get insights from other people and to exchange ideas, so tell me if you think differently, or if you experimented similar things.</p>
+</div>
+<div class="paragraph">
+<p>All I want is to learn from our discussions.</p>
+</div>
+</div>
+    </div>
+
+    <div class="post related">
+
+    </div>
+
+    <footer class="post comments">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        var disqus_shortname = 'pertuyf'; // required: replace example with your forum shortname
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </footer>
+
+  </article>
+
+
+        <footer>
+          <span class="copyright">
+            &copy; 2017. All rights reserved. Built with <a href="https://github.com/Kikobeats/uno-zen" target="_blank">Uno Zen</a> under <a href="http://hubpress.io/" target="_blank">HubPress</a>.
+          </span>
+        </footer>
+      </section>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+       
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+    <script src="//PertuyF.github.io/themes/uno-zen/assets/js/uno-zen.js?v=1499976941052" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
