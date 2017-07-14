@@ -31,7 +31,7 @@
     "cover": "/images/Blog_cover2.png",
     "delay": "",
     "postsPerPage": "10",
-    "googleAnalytics": "",
+    "googleAnalytics": "UA-102601848-1",
     "disqus": "pertuyf"
   },
   "socialnetwork": {
